@@ -1,0 +1,161 @@
+/***** BASE STYLES *****/
+body{
+  background-color: #FFFFFF;
+  font-family: 'Anton', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 394px;
+}
+
+
+/***** HEADER *****/
+
+header {
+  height: 100px;
+  border: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #9D3A3B;
+}
+
+header img {
+  padding-top: 10px;
+  margin: 0px;
+  float: left;
+}
+
+
+header h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  float: left;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+nav {
+  float: left;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-top: 15px;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+/***** WELCOME *****/
+
+#welcome {
+  padding: 0 0 0 20px;
+  border: 0px;
+  margin: 0px;
+  height: 500px;
+  background: url('https://lh3.googleusercontent.com/aw3wIoRVw66-baqBrr8JVmVrteaLijsrNDxyTs4JfZrp89hZ9LmjOPms9e0tOzll613CS5YElNDgo7vGkA=s1600')
+}
+
+#welcome h2 {
+  text-transform: uppercase;
+  font-size: 47px;
+  color: white;
+  font-weight: 800;
+  padding-right: 20px;
+}
+
+#welcome p {
+  font-size: 25px;
+  padding-right: 20px;
+  padding-top: 300px;
+  color: white;
+  line-height: 40px;
+  font-family: 'Teko', sans-serif;
+}
+
+/***** CONSTRUCTION SITE *****/
+
+#constructionsite .full-width {
+  padding: 20px 0px 0px 0px;
+}
+
+#constructionsite h3 {
+  font-size: 20px;
+  padding-left: 20px;
+  font-family: 'Teko', sans-serif;
+}
+
+#constructionsite p {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+#constructionsite .description {
+  float: left;
+  padding-left: 20px;
+}
+
+#constructionsite img {
+  padding-right: 20px;
+}
+
+#constructionsite .button {
+    background-color: #9D3A3B;
+    color: #FFFFFF;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+/***** UPCOMING *****/
+#upcoming .full-width {
+  background-color: #9D3A3B;
+  height: 150px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+/***** FOOTER *****/
+footer {
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  clear: both;
+}
+
+footer span {
+  color: #77A466;
+  font-size: 16px;
+  text-transform: lowercase;
+  font-family: 'pacifico', cursive;
+}
+
+/***** GALLERY *****/
+
+.gallery img {
+  float: left;
+  width: 500px;
+  margin:8px;
+  border: 2px solid #77A466;
+}
