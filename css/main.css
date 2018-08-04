@@ -8,17 +8,17 @@ body{
 
 .full-width {
   margin: 0 auto;
-  width: 1200px;
+  width: 100%;
 }
 
 .half-width {
   float: left;
-  width: 600px;
+  width: 50%;
 }
 
 .third-width {
   float: left;
-  width: 394px;
+  width: 33%;
 }
 
 
@@ -30,10 +30,12 @@ header {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #9D3A3B;
+  position: sticky;
+  top: 0px;
 }
 
 header img {
-  padding-top: 10px;
+  padding: 15px 5px 0px 0px;;
   margin: 0px;
   float: left;
 }
@@ -41,10 +43,10 @@ header img {
 
 header h1 {
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 400;
   float: left;
   color: #FFFFFF;
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 nav {
@@ -54,6 +56,7 @@ nav {
 nav ul li {
   display: inline-block;
   padding-top: 15px;
+  margin: 0px;
 }
 
 nav ul li a {
@@ -62,7 +65,7 @@ nav ul li a {
   font-size: 20px;
   padding-left: 20px;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 /***** WELCOME *****/
@@ -72,14 +75,20 @@ nav ul li a {
   border: 0px;
   margin: 0px;
   height: 500px;
-  background: url('https://lh3.googleusercontent.com/aw3wIoRVw66-baqBrr8JVmVrteaLijsrNDxyTs4JfZrp89hZ9LmjOPms9e0tOzll613CS5YElNDgo7vGkA=s1600')
+  top: 0px;
+  /* center = puts the image in the center, fixed = creates the effect of parralax */
+  background: url('../img/img_welcome_double_bass.JPG') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size: cover;
 }
 
 #welcome h2 {
   text-transform: uppercase;
   font-size: 47px;
   color: white;
-  font-weight: 800;
+  font-weight: 400;
   padding-right: 20px;
 }
 
@@ -90,12 +99,15 @@ nav ul li a {
   color: white;
   line-height: 40px;
   font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  margin: 0px; /*removes white space between header and body */
 }
 
 /***** CONSTRUCTION SITE *****/
 
 #constructionsite .full-width {
   padding: 20px 0px 0px 0px;
+  height: 230px;
 }
 
 #constructionsite h3 {
@@ -134,6 +146,9 @@ nav ul li a {
   text-align: center;
   padding-top: 20px;
 }
+
+
+/***** BIOGRAPHY *****/
 
 
 /***** FOOTER *****/
