@@ -171,6 +171,7 @@ nav ul li a {
 /***** CONNECT *****/
 #connect {
   text-align: center;
+  border-top: solid 25px #9D3A3B;
 }
 
 #connect ul li {
@@ -197,6 +198,9 @@ footer {
   height: 150px;
 }
 
+footer h2 {
+  padding-top: 10px; /* to get a wider distance from the connect section */
+}
 
 /***** GALLERY *****/
 
