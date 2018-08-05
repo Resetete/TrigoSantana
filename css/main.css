@@ -69,7 +69,7 @@ header h1 {
 }
 
 nav {
-  float: left;
+  float: right; /* to create a right aligned nav bar */
 }
 
 nav ul li {
