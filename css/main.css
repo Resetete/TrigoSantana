@@ -182,16 +182,20 @@ nav ul li a {
 
 #connect ul li {
   display: inline-block;
-  margin: 0px;
+  margin-left: 15px;
   padding: 0px;
   border: 0px;
 }
 
 #connect ul li img {
   width: 50px;
-  padding-left: 20px;
 }
 
+#connect ul {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+} /* needs to be set to 0px so that the icons are centralized */
 
 
 /***** FOOTER *****/
