@@ -208,6 +208,12 @@ footer h2 {
   padding-top: 10px; /* to get a wider distance from the connect section */
 }
 
+#copyright {
+  font-style: italic;
+  padding-top: 20px;
+}
+
+
 /***** GALLERY *****/
 
 .gallery img {
