@@ -31,6 +31,11 @@ p {
   width: 33%;
 }
 
+.two-third-width {
+  float: left;
+  width: 66%;
+}
+
 .button {
     background-color: #9D3A3B;
     color: #FFFFFF;
@@ -104,13 +109,13 @@ nav ul li a {
 }
 
 #welcome h2 {
-  font-size: 47px;
+  font-size: 55px;
   color: white;
   padding-right: 20px;
 }
 
 #welcome p {
-  font-size: 20px;
+  font-size: 25px;
   padding-right: 20px;
   padding-top: 300px;
   color: white;
