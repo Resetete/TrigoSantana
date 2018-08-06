@@ -232,6 +232,7 @@ footer h2 {
   max-width: 900px;
   list-style: none; /* so that there are no bullet points */
   margin: 0 auto;
+  overflow: hidden;
 }
 
 #discography-item li {
@@ -244,7 +245,6 @@ footer h2 {
 
 .discography-cell {
   display: block;
-  position: relative;
   overflow: hidden;
 }
 
@@ -252,8 +252,6 @@ footer h2 {
   width: 100%;
   height: auto;
   border: none;
-  transform:scale(1); /* defines the type of image scaling method */
-  transition:all ls;
 }
 
 
