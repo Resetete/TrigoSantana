@@ -31,6 +31,7 @@ p {
   width: 33%;
 }
 
+
 .two-third-width {
   float: left;
   width: 66%;
@@ -221,38 +222,55 @@ footer h2 {
 /***** DISCOGRAPHY *****/
 #discography {
   padding: 0 15% 0 15%;
-} /* assures that the gallary has a responsive space from window border on left and right side */
-
-
-.discography-item {
-  float: left;
-  padding-bottom: 10px;
-}
-.discography-img {
-  padding: 0px 0px 0px 20px;
-}
-
-.discography-img img {
-  float: left;
-  width: 200px;
-  height: 200px;
-  margin: 8px;
-}
-
+} /* assures that the gallery has a responsive space from window border on left and right side */
 
 #discography h2 {
   text-align: center;
 }
 
-.album-caption {
-  padding: 0px 0px 0px 10px;
-  margin: 0px;
-  border: 0px;
-
+#discography-item {
+  max-width: 900px;
+  list-style: none; /* so that there are no bullet points */
+  margin: 0 auto;
 }
 
-#album-artist {
-  font-style: italic;
-  font-size: smaller;
+#discography-item li {
+  display: inline-block;
+  width: 30%; /* to set the width of each of the list element width */
+  vertical-align: middle;
+  margin: 0px;
+  padding-right: 10px; /* distance between gallery items */
+}
 
+.discography-cell {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.discography-cell img {
+  width: 100%;
+  height: auto;
+  border: none;
+  transform:scale(1); /* defines the type of image scaling method */
+  transition:all ls;
+}
+
+
+/* formatting caption */
+.discography-album {
+  display: block;
+  padding: 0 10px;
+  margin: 0px;
+  border: 0px;
+  width: 100%;
+}
+
+.discography-artist {
+  display: block;
+  padding: 0 10px;
+  margin: 0 0 10px 0;
+  border: 0px;
+  width: 100%;
+  font-style: italic;
 }
