@@ -199,24 +199,6 @@ nav ul li a {
 } /* needs to be set to 0px so that the icons are centralized */
 
 
-/***** FOOTER *****/
-footer {
-  font-size: 16px;
-  text-align: center;
-  clear: both;
-  background-color: #9D3A3B;
-  color: #FFFFFF;
-  height: 150px;
-}
-
-footer h2 {
-  padding-top: 10px; /* to get a wider distance from the connect section */
-}
-
-#copyright {
-  font-style: italic;
-  padding-top: 20px;
-}
 
 
 /***** DISCOGRAPHY *****/
@@ -271,4 +253,78 @@ footer h2 {
   border: 0px;
   width: 100%;
   font-style: italic;
+}
+
+/* CONTACT PAGE */
+
+#contact h1 {
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+#contact p {
+  text-align: center;
+  margin: 0px;
+  padding: 0px 0 50px 0;
+  border: 0px;
+}
+
+#contact-form {
+  text-align:  center;
+  background: #9D3A3B;
+  margin-left: 100px;
+  height: 400px;
+}
+
+#contact-form fieldset {
+  border: 0px;
+}
+
+#contact-form h2 {
+    color: white;
+    border: 0px;
+    margin: 0px;
+    padding: 30px 0 0 0;
+}
+
+ #contact-form p {
+     color: white;
+     border: 0;
+     margin: 0;
+     padding-bottom: 20px;
+ }
+
+ #contact-form fieldset button {
+   border: 1px solid white;
+   background: #9D3A3B;
+   color: white;
+   padding: 5px 15px 5px 15px;
+   font-weight: 200;
+   font-family: sans-serif;
+ }
+
+ #contact-form fieldset {
+   font-family: sans-serif;
+   margin: 10px;
+ }
+
+
+
+/***** FOOTER *****/
+footer {
+  font-size: 16px;
+  text-align: center;
+  clear: both;
+  background-color: #9D3A3B;
+  color: #FFFFFF;
+  height: 150px;
+}
+
+footer h2 {
+  padding-top: 10px; /* to get a wider distance from the connect section */
+}
+
+#copyright {
+  font-style: italic;
+  padding-top: 20px;
 }
