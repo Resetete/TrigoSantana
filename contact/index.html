@@ -36,23 +36,32 @@
                 <h1>Contact</h1>
                 <p>Trigo Santana </p>
                 <div class="half-width">
-                    <form id="contact-form" action="" method="post">
+
+                    <form action="https://formspree.io/rese_m@web.de" method="POST">
+                      <input type="text" name="name">
+                      <input type="email" name="_replyto">
+                      <input type="submit" value="Send">
+                    </form>
+
+                    <!-- in the action paramter we need to add the php script that will send the emails-->
+                    <form id="contact-form" action="contactengine.php" method="post">
                       <h2>Contact me </h2>
                       <p> Berlin, Germany</p>
                       <fieldset>
-                        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                        <input id="name" placeholder="Your name" type="text" tabindex="name" required autofocus>
                       </fieldset>
                       <fieldset>
-                        <input placeholder="Your email" type="email" tabindex="2" required autofocus>
+                        <input id="email" placeholder="Your email" type="email" tabindex="email" required autofocus>
                       </fieldset>
                       <fieldset>
-                        <textarea placeholder="Type your message here ..." tabindex="3" required>
+                        <textarea id="message" placeholder="Type your message here ..." tabindex="message" required>
                         </textarea>
                       </fieldset>
                       <fieldset>
                         <button name="submit" type="submit" id="contact-submit-button" data-submit="...Sending" >Submit</button>
                       </fieldset>
                     </form>
+
                 </div>
                 <!-- Google map -->
                 <!-- https://www.w3schools.com/html/html_googlemaps.asp -->
@@ -68,6 +77,7 @@
                 </div>
               </div>
             </section>
+
             <footer id="footer">
               <div class="full-width">
                 <h2>Newsletter</h2>
