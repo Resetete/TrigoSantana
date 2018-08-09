@@ -274,10 +274,7 @@ nav ul li a {
   background: #9D3A3B;
   margin-bottom: 50px;
   height: 400px;
-}
 
-#contact-form fieldset {
-  border: 0px;
 }
 
 #contact-form h2 {
@@ -294,18 +291,23 @@ nav ul li a {
      padding-bottom: 20px;
  }
 
- #contact-form fieldset button {
+ #contact-form button {
    border: 1px solid white;
    background: #9D3A3B;
    color: white;
    padding: 5px 15px 5px 15px;
+   margin-top: 20px;
    font-weight: 200;
    font-family: sans-serif;
  }
 
- #contact-form fieldset {
+ #contact-form input {
    font-family: sans-serif;
-   margin: 10px;
+   border: 20px solid #9D3A3B;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+   padding: 5px;
  }
 
 

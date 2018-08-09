@@ -36,30 +36,14 @@
                 <h1>Contact</h1>
                 <p>Trigo Santana </p>
                 <div class="half-width">
-
-                    <form action="https://formspree.io/rese_m@web.de" method="POST">
-                      <input type="text" name="name">
-                      <input type="email" name="_replyto">
-                      <input type="submit" value="Send">
-                    </form>
-
                     <!-- in the action paramter we need to add the php script that will send the emails-->
-                    <form id="contact-form" action="contactengine.php" method="post">
+                    <form id="contact-form" action="https://formspree.io/rese_m@web.de" method="POST">
                       <h2>Contact me </h2>
                       <p> Berlin, Germany</p>
-                      <fieldset>
-                        <input id="name" placeholder="Your name" type="text" tabindex="name" required autofocus>
-                      </fieldset>
-                      <fieldset>
-                        <input id="email" placeholder="Your email" type="email" tabindex="email" required autofocus>
-                      </fieldset>
-                      <fieldset>
-                        <textarea id="message" placeholder="Type your message here ..." tabindex="message" required>
-                        </textarea>
-                      </fieldset>
-                      <fieldset>
-                        <button name="submit" type="submit" id="contact-submit-button" data-submit="...Sending" >Submit</button>
-                      </fieldset>
+                      <input id="name" placeholder="Your name" type="text" name="name" required autofocus>
+                      <input id="email" placeholder="Your email" type="email" name="_replyto" required autofocus>
+                      <input id="message" placeholder="Your message" name="message" required>
+                      <button id="contact-submit-button" name="submit" type="submit" value="Send" >Submit</button>
                     </form>
 
                 </div>
