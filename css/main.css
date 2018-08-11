@@ -7,6 +7,7 @@ body{
 h2 {
   text-transform: uppercase;
   font-weight: 200;
+  letter-spacing: 2px;
 }
 
 p {
@@ -72,6 +73,7 @@ header h1 {
   float: left;
   color: #FFFFFF;
   margin-top: 22px;
+  letter-spacing: 2px;
 }
 
 nav {
@@ -91,6 +93,7 @@ nav ul li a {
   padding-left: 20px;
   text-transform: uppercase;
   font-weight: 400;
+  letter-spacing: 1px;
 }
 
 /***** WELCOME *****/
@@ -113,6 +116,7 @@ nav ul li a {
   font-size: 55px;
   color: white;
   padding-right: 20px;
+  letter-spacing: 2px;
 }
 
 #welcome p {
@@ -260,6 +264,7 @@ nav ul li a {
 #contact h1 {
   text-align: center;
   margin: 50px 0 0 0;
+  letter-spacing: 2px;
 }
 
 #contact p {
@@ -274,7 +279,6 @@ nav ul li a {
   background: #9D3A3B;
   margin-bottom: 50px;
   height: 400px;
-
 }
 
 #contact-form h2 {
@@ -282,6 +286,7 @@ nav ul li a {
     border: 0px;
     margin: 0px;
     padding: 30px 0 0 0;
+    letter-spacing: 2px;
 }
 
  #contact-form p {
@@ -319,11 +324,25 @@ footer {
   clear: both;
   background-color: #9D3A3B;
   color: #FFFFFF;
-  height: 150px;
+  height: 250px;
 }
 
 footer h2 {
   padding-top: 10px; /* to get a wider distance from the connect section */
+}
+
+footer .required_email {
+  font-family: sans-serif;
+  color: red;
+}
+
+div #mc_embed_signup_scroll {
+  background-color: #9D3A3B;
+}
+
+form input {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 #copyright {
