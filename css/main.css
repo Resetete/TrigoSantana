@@ -248,6 +248,9 @@ nav ul li a {
   margin: 0px;
   border: 0px;
   width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+
 }
 
 .discography-artist {
@@ -257,6 +260,7 @@ nav ul li a {
   border: 0px;
   width: 100%;
   font-style: italic;
+  font-size: 12px;
 }
 
 /* CONTACT PAGE */
@@ -333,7 +337,6 @@ footer h2 {
 
 footer .required_email {
   font-family: sans-serif;
-  color: red;
 }
 
 div #mc_embed_signup_scroll {
