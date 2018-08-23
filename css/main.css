@@ -107,7 +107,7 @@ nav ul li a {
   height: 900px;
   top: 0px;
   /* center = puts the image in the center, fixed = creates the effect of parralax */
-  background: url('../img/img_welcome_double_bass.JPG') no-repeat center center fixed;
+  background: url('../img/Backgroundpicture_landingPage.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size:cover;
@@ -134,6 +134,8 @@ nav ul li a {
   font-weight: 400;
   margin: 0px; /*removes white space between header and body */
 }
+
+
 
 /***** CONSTRUCTION SITE *****/
 
