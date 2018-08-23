@@ -133,7 +133,7 @@ nav ul li a {
 /***** CONSTRUCTION SITE *****/
 
 #constructionsite .full-width {
-  padding: 20px 0px 0px 0px;
+  padding: 100px 0px 100px 0px;
   height: 230px;
 }
 
@@ -160,14 +160,16 @@ nav ul li a {
   height: auto; /* allows that the section height auments depending on the amount of upcoming shows */
   color: #FFFFFF;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 50px; /* to allow the page brease - more space */
+  padding-bottom: 50px;
 }
 
 
 /***** BIOGRAPHY *****/
-#biography .full-width {
+#biography {
   background: url('../img/trigo_biography.png') no-repeat center center fixed;
   background-size: cover;
+  padding: 150px 0 150px 0; /* allowing more space on the page */
 }
 
 #biography-text {
@@ -177,7 +179,7 @@ nav ul li a {
 }
 
 #biography-text p {
-  font-size: 14px;
+  font-size: calc(16px + 0.2vw); /* scalable text with min font size of 16px) */
 }
 
 /***** CONNECT *****/
