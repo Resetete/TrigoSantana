@@ -157,7 +157,7 @@ nav ul li a {
 /***** UPCOMING *****/
 #upcoming .full-width {
   background-color: #9D3A3B;
-  height: auto;
+  height: auto; /* allows that the section height auments depending on the amount of upcoming shows */
   color: #FFFFFF;
   text-align: center;
   padding-top: 20px;
