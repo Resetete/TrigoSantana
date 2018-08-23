@@ -104,7 +104,7 @@ nav ul li a {
   padding: 0 0 0 20px;
   border: 0px;
   margin: 0px;
-  height: 500px;
+  height: 900px;
   top: 0px;
   /* center = puts the image in the center, fixed = creates the effect of parralax */
   background: url('../img/img_welcome_double_bass.JPG') no-repeat center center fixed;
@@ -112,6 +112,8 @@ nav ul li a {
   -moz-background-size: cover;
   -o-background-size:cover;
   background-size: cover;
+  min-height: 100%;
+  height: auto;
 }
 
 #welcome h2 {
@@ -119,12 +121,14 @@ nav ul li a {
   color: white;
   padding-right: 20px;
   letter-spacing: 2px;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 #welcome p {
   font-size: 25px;
   padding-right: 20px;
-  padding-top: 300px;
+  padding-top: 400px;
   color: white;
   line-height: 40px;
   font-weight: 400;
