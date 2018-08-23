@@ -2,6 +2,7 @@
 body{
   background-color: #FFFFFF;
   font-family: 'Anton', sans-serif;
+  height: 100%;
 }
 
 h2 {
@@ -156,7 +157,7 @@ nav ul li a {
 /***** UPCOMING *****/
 #upcoming .full-width {
   background-color: #9D3A3B;
-  height: 150px;
+  height: auto;
   color: #FFFFFF;
   text-align: center;
   padding-top: 20px;
