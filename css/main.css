@@ -157,8 +157,16 @@ header h1 {
   text-align: center;
   padding-top: 50px; /* to allow the page brease - more space */
   padding-bottom: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  justify-content: center;
 }
 
+#upcoming  iframe {
+  width: 60%;
+  margin: 0 20%;
+}
 
 /***** BIOGRAPHY *****/
 #biography {
