@@ -241,7 +241,7 @@ header h1 {
   overflow: hidden;
 }
 
-.discography-cell img {
+.discography-cell img, iframe {
   width: 100%;
   height: auto;
   border: none;
