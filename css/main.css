@@ -219,6 +219,7 @@ header h1 {
 
 #discography h2 {
   text-align: center;
+  color: #9D3A3B;
 }
 
 #discography-item {
@@ -256,7 +257,6 @@ header h1 {
   width: 100%;
   font-size: 13px;
   font-weight: bold;
-
 }
 
 .discography-artist {
