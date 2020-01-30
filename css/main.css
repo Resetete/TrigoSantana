@@ -217,20 +217,20 @@ header h1 {
 
 /***** WELCOME *****/
 
-#welcome {
+.welcome {
   padding: 0px;
   border: 0px;
   margin: 0px;
   height: 85vh;
   /* center = puts the image in the center, fixed = creates the effect of parralax */
-  background: url('../img/Backgroundpicture_landingPage.png') no-repeat center center fixed;
+  background: url('../img/welcome-mobile.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-#welcome h2 {
+.welcome h2 {
   font-size: 4em;
   color: white;
   letter-spacing: 2px;
@@ -238,7 +238,7 @@ header h1 {
   padding-left: 20px;
 }
 
-#welcome p {
+.welcome p {
   font-size: 1.5em;
   padding: 400px 20px 0 20px;
   color: white;
@@ -268,7 +268,7 @@ header h1 {
 
 /***** BIOGRAPHY *****/
 #biography {
-  background: url('../img/trigo_biography.png') no-repeat center center fixed;
+  background: url('../img/portrait_mobile.jpg') no-repeat center center fixed;
   background-size: cover;
   padding: 150px 0 150px 0; /* allowing more space on the page */
   background-color: #FFFFFF;
@@ -568,9 +568,17 @@ form input {
    ========================================================================== */
 
 
-@media only screen and (max-width: 768px) {
-/* -------- MOBILE styles here   ----------*/
-  #welcome {
+@media only screen and (min-width: 768px) {
+      /* -------- DESKTOP styles here   ----------*/
+  .welcome {
     /* center = puts the image in the center, fixed = creates the effect of parralax */
-    background: url('../img/welcome-mobile.jpg') no-repeat center center fixed;
+    background: url('../img/Backgroundpicture_landingPage.png') no-repeat center center fixed;
+    background-size: cover;
   }
+
+  #biography {
+    background: url('../img/trigo_biography.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+}
