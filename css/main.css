@@ -111,6 +111,11 @@ h2 {
   letter-spacing: 2px;
 }
 
+h3, h4, h5 {
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
 p {
   font-family: 'Helvetica';
   font-size: 15px;
@@ -483,6 +488,17 @@ form input {
 #copyright {
   font-style: italic;
   padding-top: 20px;
+}
+
+
+/***** IMPRINT *****/
+.impressum h2 {
+  color: #9D3A3B;
+  text-align: center;
+}
+
+#imprint-content {
+  padding-left: 10%;
 }
 
 
