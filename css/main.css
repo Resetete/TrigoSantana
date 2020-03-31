@@ -196,12 +196,14 @@ header h1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
+  margin: 0px;
+  padding: 10px 0px;
 }
 
 .navbar-wrapper ul li {
   display: inline-block;
-  padding-top: 15px;
+  padding-top: 10px;
   margin: 0px;
 }
 
@@ -310,8 +312,6 @@ header h1 {
   border: 0px;
   padding: 0px;
 } /* needs to be set to 0px so that the icons are centralized */
-
-
 
 /***** DISCOGRAPHY *****/
 #discography {
@@ -458,6 +458,11 @@ footer h2 {
 
 footer .required_email {
   font-family: sans-serif;
+}
+
+#imprint {
+  color: black;
+  text-decoration: none;
 }
 
 #chamaeleon-footer-brand {
